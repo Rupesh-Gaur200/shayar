@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shayar's hub</title>
+    <link href="style.css" rel="stylesheet" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@700&family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="center">
+      <header class="top">
+        <div class="logo">
+          <img src="logo.png" height="68" width="68" alt="Logo of Shayar hub" />
+          <h1>Shayar's Hub</h1>
+        </div>
+        <button class="btn btn-large btn-open">Share a Shayari</button>
+      </header>
+
+      <form class="factform hidden">
+        <input type="text" placeholder="share your shayari" />
+        <span class="num">200</span>
+        <input type="text" placeholder="put your source" />
+        <select>
+          <option value="">Choose Category</option>
+          <option value="romantic">romantic</option>
+          <option value="melody3">melody</option>
+          <option value="All">All</option>
+        </select>
+        <button class="btn btn-large">post</button>
+      </form>
+
+      <main class="main">
+        <aside>
+          <ul>
+            <li><button class="btn btn-all">All</button></li>
+            <li class="btnmargin">
+              <button
+                class="btn btn-all-cate"
+                style="background-color: #3b82f6"
+              >
+                romantic
+              </button>
+            </li>
+            <li class="btnmargin">
+              <button
+                class="btn btn-all-cate"
+                style="background-color: #eab308"
+              >
+                melody
+              </button>
+            </li>
+          </ul>
+        </aside>
+
+        <section>
+          <ul>
+            <li class="fact">
+              <div class="paper">
+                <p>
+                  Hasta hu muskurata hu... nazar andaz kr lamho ko.. aage nikal
+                  jata hu... pr sawal ye hai... ki jaane ab mei kyu rooh nhi
+                  pata hu..
+
+                  <a
+                    class="Source"
+                    href="https://opensource.fb.com/"
+                    target="_blank"
+                    >Source</a
+                  >
+                </p>
+                <span class="tag" style="background-color: #3b82f6">
+                  romantic
+                </span>
+                <div class="vote">
+                  <button>👍</button>
+                  <button>🤯</button>
+                  <button>⛔️</button>
+                </div>
+              </div>
+            </li>
+
+            <li class="fact">
+              <div class="paper">
+                <p>
+                  jane ku kl ki fikrr mei .. aaj jee rahe hm ... jo nhi hai
+                  usmei sukoon dund rahe hm..
+
+                  <a
+                    class="Source"
+                    href="https://www.mother.ly/parenting/millennial-dads-spend-more-time-with-their-kids"
+                    target="_blank"
+                    >Source</a
+                  >
+                </p>
+                <span class="tag" style="background-color: #eab308"
+                  >melody</span
+                >
+
+                <div class="vote">
+                  <button>👍</button>
+                  <button>🤯</button>
+                  <button>⛔️</button>
+                </div>
+              </div>
+            </li>
+            <li class="fact">
+              <div class="paper">
+                <p>
+                  Intezaar ... Sooraj ke aane ka.... roshni ko laane ka...
+                  intezaar... chidiyo ke gaane ka unhe sunn kheel jaane ka..
+                  intezaar... hawa ka halke se chuu jaane ka ... aysahas
+                  mukurane ka ... intezaar... apke pass hone ka .. garam chai pe
+                  malaiee jamne ka .. intezaar .. uss 2 ghumte pahiyo pe saawar
+                  paper wale ka... intezaar.. jaane aur kya ..kya... bas
+                  <a
+                    class="Source"
+                    href="https://en.wikipedia.org/wiki/Lisbon"
+                    target="_blank"
+                    >Source</a
+                  >
+                </p>
+                <span class="tag" style="background-color: #eab308"
+                  >melody</span
+                >
+                <div class="vote">
+                  <button>👍</button>
+                  <button>🤯</button>
+                  <button>⛔️</button>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
